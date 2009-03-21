@@ -2,7 +2,7 @@
 
 def populate(saidb):
     import rss
-    rss.add(saidb, 'Symlïnk', 'http://www.symlink.ch/symlinkch.rss')
+    rss.add(saidb, u'Symlïnk', 'http://www.symlink.ch/symlinkch.rss')
     rss.add(saidb, 'Linux Community', 'http://community.linux.com/community.rss')
     rss.add(saidb, 'Coding Horror', 'http://feeds.feedburner.com/codinghorror')
     rss.add(saidb, 'Freshmeat', 'http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global')
